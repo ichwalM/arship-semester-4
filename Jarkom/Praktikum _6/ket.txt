@@ -1,0 +1,12 @@
+Gambar topologi untuk eval 6, 
+
+silahkan di tulis tangan semua konfigurasinya
+
+hostname Router Ubah ke namanya, misal Rehan-1 untuk router 1, Rehan-2 untuk router 2, (jngan lupa ditulis juga perintah ubah hostname)
+
+masukkan Screenshotan semua IP yang dimasukkan ke PCnya (IPnya harus DHCP - silahkan cari referensi di YouTube) 
+
+
+Tampilkan Output Pingnya PC ke PC (minimal 10 ping)
+
+tampilkan juga Show ip routenya (screenshot saja)
