@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kepala Boneka Lotso</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffebf2;
+}
+
+.lotso-head {
+  position: relative;
+  width: 220px;
+  height: 220px;
+  background-color: #f64c83;  /* Warna dasar kepala Lotso */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lotso-ear {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: #f64c83;
+  border-radius: 50%;
+  top: 10px;
+}
+
+.left-ear {
+  left: -40px;
+}
+
+.right-ear {
+  right: -40px;
+}
+
+.lotso-ears-inner {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: #f9b8c3; /* Warna lebih terang untuk bagian dalam telinga */
+  border-radius: 50%;
+}
+
+.left-inner-ear {
+  left: -30px;
+}
+
+.right-inner-ear {
+  right: -30px;
+}
+
+.lotso-face {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lotso-eye {
+  width: 35px;
+  height: 35px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.left-eye {
+  margin-right: 10px;
+}
+
+.lotso-nose {
+  width: 40px;
+  height: 40px;
+  background-color: #9b315f;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.lotso-mouth {
+  width: 80px;
+  height: 45px;
+  background-color: #9b315f;
+  border-radius: 50%;
+  margin-top: 5px;
+  transform: rotate(180deg); /* Membalikkan bentuk mulut */
+}
+
+/* Animasi bounce untuk efek naik turun */
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.lotso-head {
+  animation: bounce 1.5s ease-in-out infinite; /* Animasi naik turun */
+}
+
+  </style>
+</head>
+<body>
+  <div class="lotso-head">
+    <div class="lotso-ear left-ear"></div>
+    <div class="lotso-ear right-ear"></div>
+    <div class="lotso-face">
+      <div class="lotso-eye left-eye"></div>
+      <div class="lotso-eye right-eye"></div>
+      <div class="lotso-nose"></div>
+      <div class="lotso-mouth"></div>
+      <div class="lotso-ears-inner left-inner-ear"></div>
+      <div class="lotso-ears-inner right-inner-ear"></div>
+    </div>
+  </div>
+</body>
+</html>

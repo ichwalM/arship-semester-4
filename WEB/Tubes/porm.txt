@@ -1,0 +1,19 @@
+buatkan desain website yang memilikijudul "Personal Finance Tracker":
+1. halaman pertama yaitu login 
+2. halaman ke-2 halaman registrasi akun
+3. halaman dasboard yang memiliki sidebard(Dasboard,Transaksi, Laporan, log out) kemudia tampilan utama dashboard adalah informasi keuangan(Saldo, Pemasukan, Pengeluara) dan tampilan grafis seperti line chart, diagram pie  kemudian ada table riaway transaksi terbaru
+4. kemudia di halaman transaksi untuk form pengisian
+5. kemdian halamaan laporan keuangan
+
+library js
+datatables
+
+
+hai brow saya ingin kamu menjadi parnterku dalam membangun sebauh platfrom berbasis website?
+okey jadi kita akan membuat sebuah aplikasi website yang interaktif dan responsif  website yang memilikijudul "Personal Finance Tracker" dimana:
+1. halaman pertama yaitu login 
+2. halaman ke-2 halaman registrasi akun
+3. halaman dasboard yang memiliki sidebard(Dasboard,Transaksi, Laporan, log out) kemudia tampilan utama dashboard adalah informasi keuangan(Saldo, Pemasukan, Pengeluara) dan tampilan grafis seperti line chart, diagram pie  kemudian ada table riaway transaksi terbaru
+4. kemudia di halaman transaksi untuk form pengisian
+5. kemdian halamaan laporan keuangan
+akan tetapi kita hanya bermain d fornt end tanpa adanya backend seperti databases jadi data yang di inmputkan di simpan sementara. untuk ketentuanya adalah kita menggunakan html5, css, boostrap, dan javascript dan library tambahan jika di butuhkan seperti chart js
